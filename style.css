@@ -9,7 +9,7 @@ body {
 
 a,
 button {
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
   outline: none !important;
 }
 
@@ -292,9 +292,9 @@ a:hover {
   padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-  font-size: 32px;
-}
+/* #bloc-1-hero h1 {
+  font-size: bigger; 
+} */
 
 .navbar {
   margin-bottom: 0;
@@ -706,8 +706,13 @@ p {
   color: #ffffff !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
-  font-size: 16px;
+  font-size: larger;
   font-weight: 700;
+  width: 200px;
+}
+
+p {
+  font-size: medium;
 }
 
 .social {
@@ -793,14 +798,16 @@ h4 {
   background: #f3976c;
   color: #ffffff !important;
 }
-
+/* hover sur le bouton contact */
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
-  color: #ffffff !important;
-}
+  background: linear-gradient(#f3976c, #c27956);
+  /* color: #ffffff !important; */
+  box-shadow: 0px 0px 20px #9c9c9c;
+} /*fin hover sur bouton contact*/
 
 .ltc-white {
   color: #ffffff !important;
+  text-decoration: none;
 }
 
 .ltc-white:hover {
