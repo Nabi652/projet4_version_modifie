@@ -594,6 +594,10 @@ p {
   color: white;
   font-weight: bolder;
 }
+
+#titre-h2 {
+  color: black;
+}
 .container {
   max-width: 1000px;
 }
