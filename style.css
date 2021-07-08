@@ -595,9 +595,11 @@ p {
   font-weight: bolder;
 }
 
-#titre-h2 {
+#titre-h2-1,
+#titre-h2-2 {
   color: black;
 }
+
 .container {
   max-width: 1000px;
 }
