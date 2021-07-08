@@ -590,6 +590,10 @@ p {
   text-shadow: #e0e0e0 1px 1px 0;
 }
 
+#citation-guibard {
+  margin-bottom: 90px;
+}
+
 .row h2 {
   color: white;
   font-weight: bolder;
