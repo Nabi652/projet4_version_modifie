@@ -251,6 +251,13 @@ a:hover {
   margin-top: 4px;
   font-size: 20px;
 }
+.navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-nav > li > a:hover {
+  color: #f3976c;
+}
 
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
@@ -729,7 +736,7 @@ h3 {
 }
 
 .icon-dark-slate-blue {
-  color: #364577 !important;
+  color: #364577;
   border-color: #364577 !important;
 }
 
