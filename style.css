@@ -238,12 +238,23 @@ a:hover {
 .nav-center .navbar-brand img {
   margin: 0;
 }
-
+/* -------------------- lien retour accueil de la page contact -----------------------------*/
 .navbar .nav {
   padding-top: 2px;
-  margin-right: -16px;
-  float: right;
+  position: absolute;
+  right: 200px;
+  top: 30px;
   z-index: 1;
+  list-style-type: none;
+}
+.navbar .nav:hover {
+  color: #c27956;
+}
+
+.navbar .nav a {
+  text-decoration: none;
+  font-size: x-large;
+  width: 156px;
 }
 
 .nav > li {
@@ -724,7 +735,6 @@ h3 {
 /* hover sur le bouton contact */
 .btn-atomic-tangerine:hover {
   background: linear-gradient(#f3976c, #c27956);
-  /* color: #ffffff !important; */
   box-shadow: 0px 0px 20px #9c9c9c;
 } /*fin hover sur bouton contact*/
 
@@ -765,6 +775,32 @@ h3 {
 
 .bg-presentation {
   background-image: url("img/image.PNG");
+}
+/* ------------------------------ titre parlons web design de la page contact ------------------------*/
+
+#ParlonsWebDesign {
+  color: #000000;
+}
+
+#text-contact {
+  margin-left: 0;
+}
+
+/* -------------------------- formulaire page contact----------------------------- */
+
+textarea {
+  resize: none;
+  overflow: auto;
+}
+
+.form-control {
+  border: 2px solid black;
+  outline: none;
+}
+.form-control:hover {
+  border: 2px solid #f3976c;
+  transition: 0.3s;
+  cursor: default;
 }
 
 @media (max-width: 1024px) {

@@ -55,7 +55,7 @@
     <!-- Principal conteneur -->
     <div class="page-container">
       <!-- bloc-0 -->
-      <div class="bloc bgc-white l-bloc" id="bloc-0">
+      <header class="bloc bgc-white l-bloc" id="bloc-0">
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
@@ -63,38 +63,22 @@
                 ><img
                   src="img/la-chouette-agence.png"
                   alt="atlanta web design logo"
-                  height="40"
               /></a>
-              <button
-                id="nav-toggle"
-                type="button"
-                class="ui-navbar-toggle navbar-toggle"
-                data-toggle="collapse"
-                data-target=".navbar-1"
-              >
-                <span class="sr-only">Toggle navigation</span
-                ><span class="icon-bar"></span><span class="icon-bar"></span
-                ><span class="icon-bar"></span>
-              </button>
             </div>
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
               <ul class="site-navigation nav navbar-nav">
                 <li>
-                  <a href="index.html">Accueil</a>
-                </li>
-                <li></li>
-                <li>
-                  <a href="page2.html">page2 &gt;</a>
+                  <a href="index.html">Page d'accueil</a>
                 </li>
               </ul>
             </div>
           </nav>
         </div>
-      </div>
+      </header>
       <!-- bloc-0 END -->
 
       <!-- bloc-6 -->
-      <div
+      <section
         class="
           bloc
           bg-dots-bg bg-repeat
@@ -108,10 +92,16 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center hero-bloc-text tc-white">
+              <h1
+                class="text-center hero-bloc-text tc-white"
+                id="ParlonsWebDesign"
+              >
                 Parlons web design !
               </h1>
-              <p class="text-center mg-lg tc-white tight-width-whitespace">
+              <p
+                class="text-center mg-lg tc-white tight-width-whitespace"
+                id="text-contact"
+              >
                 Nous sommes ravis que vous souhaitiez collaborer avec notre
                 agence.<br />
                 Parlez-nous de votre projet en complétant le formulaire
@@ -120,11 +110,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-6 END -->
 
       <!-- bloc-7 -->
-      <div class="bloc bgc-white l-bloc" id="bloc-7">
+      <section class="bloc bgc-white l-bloc" id="bloc-7">
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-6">
@@ -135,11 +125,11 @@
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label> Nom </label><br />
                   <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label> Adresse email </label><br />
                   <input
                     id="email"
                     class="form-control"
@@ -148,7 +138,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label> Comment nous avez-vous connu ? </label><br />
                   <input
                     class="form-control"
                     type="email"
@@ -158,8 +148,8 @@
                 </div>
                 <div class="form-group">
                   <label>
-                    Brief de votre projet (Ajoutez autant de détails que
-                    nécessaire)<br /> </label
+                    Brief de votre projet <br />
+                    (Ajoutez autant de détails que nécessaire)<br /> </label
                   ><textarea
                     id="message"
                     class="form-control"
@@ -189,7 +179,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-7 END -->
 
       <!-- ScrollToTop Button -->
@@ -199,7 +189,7 @@
       <!-- ScrollToTop Button END-->
 
       <!-- Footer - bloc-8 -->
-      <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+      <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
         <div class="container bloc-sm">
           <div class="row">
             <div class="col-sm-12">
@@ -239,7 +229,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </footer>
       <!-- Footer - bloc-8 END -->
     </div>
     <!-- Principal conteneur END -->
