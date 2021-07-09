@@ -239,29 +239,21 @@ a:hover {
   margin: 0;
 }
 /* -------------------- lien retour accueil de la page contact -----------------------------*/
-.navbar .nav {
+#accueil {
   padding-top: 2px;
   position: absolute;
-  right: 200px;
-  top: 30px;
+  right: 112px;
+  bottom: 5px;
   z-index: 1;
   list-style-type: none;
-}
-.navbar .nav:hover {
-  color: #c27956;
 }
 
 .navbar .nav a {
   text-decoration: none;
   font-size: x-large;
-  width: 156px;
+  width: 192px;
 }
 
-.nav > li {
-  float: left;
-  margin-top: 4px;
-  font-size: 20px;
-}
 .navbar-nav > li > a {
   color: black;
 }
@@ -270,38 +262,17 @@ a:hover {
   color: #f3976c;
 }
 
-.navbar-nav .open .dropdown-menu > li > a {
-  text-align: inherit;
-}
-
 .nav > li a:hover,
 .nav > li a:focus {
   background: transparent;
 }
 
-.navbar-toggle {
-  margin: 10px 10px 0 0;
-  border: 0px;
-}
+/* ------------------------------- lien nous contacter de la page d'accueil ------------------*/
 
-.navbar-toggle:hover {
-  background: transparent !important;
-}
-
-.navbar-toggle .icon-bar {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 26px;
-}
-
-.nav-invert .navbar .nav {
-  float: left;
-}
-
-.nav-invert .navbar-header,
-.nav-invert .navbar-brand {
-  float: right;
-  position: relative;
-  z-index: 2;
+#NousContacter {
+  top: -15px;
+  left: 30px;
+  position: absolute;
 }
 
 @media (min-width: 768px) {
