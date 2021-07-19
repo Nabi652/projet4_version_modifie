@@ -309,10 +309,11 @@ ul {
     margin-right: 0px;
     margin-top: 20px;
   }
-  .nav-center.mini-nav .navbar-toggle {
+  /* .nav-center.mini-nav .navbar-toggle {
     float: none;
     margin: 10px auto 0;
-  }
+    background-color: red;
+  } */
 }
 
 .nav > li > .dropdown a {
@@ -854,8 +855,8 @@ textarea {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1500px) {
+@media (min-width: 768px) and (max-width: 1424px) {
   #NousContacter {
-    left: -50px;
+    color: white;
   }
 }
