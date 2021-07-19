@@ -850,13 +850,26 @@ textarea {
     width: 230px;
   }
 
-  #text-contact1 {
+  /* #text-contact1 {
     width: 230px;
-  }
+  } */
 }
 
 @media (min-width: 768px) and (max-width: 1424px) {
   #NousContacter {
     color: white;
+  }
+}
+
+#text-contact1 {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+@media (min-width: 400px) and (max-width: 435px) {
+  .text-contact2 {
+    font-size: 15px;
+    width: 100%;
   }
 }
